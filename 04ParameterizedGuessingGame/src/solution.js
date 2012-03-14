@@ -1,5 +1,4 @@
 // setting up a variable named authorsName with a value of "William Doane"
-// setting up a variable named lowest with a value of 1
 var authorsName = "William Doane",
 // setting up a variable named lowest with a value of 1   
  	lowest = 1,
