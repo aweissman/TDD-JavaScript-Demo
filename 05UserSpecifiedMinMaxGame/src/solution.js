@@ -1,3 +1,4 @@
+// setting up a variable named authorsName with a value of "William Doane"
 var authorsName = "William Doane",
     lowest,
     highest;
