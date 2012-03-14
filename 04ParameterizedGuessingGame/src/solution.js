@@ -18,7 +18,7 @@ var getUserGuess = function (min, max) {
 var convertToDecimal = function (str) {
   return parseInt(str, 10);
 };
-//
+// creates a function called isWinner that checks to see if num and guess are equal to each other. if they are then it returns true else it returns false.
 var isWinner = function (num, guess) {
   if (num === guess) {
    return true;
@@ -26,20 +26,23 @@ var isWinner = function (num, guess) {
    return false;
   }
 };
-//
+// creates a function called main
 var main = function () {
+// creates two variables one called num and one called guess
   var num, guess;
-  
+// num is equal to rollDie function
   num = rollDie(lowest, highest);
+// guess is set equal to getUserGuess function
   guess = getUserGuess(lowest, highest);
+// guess is then set equal to convertToDecimal a.k.a. the users guess
   guess = convertToDecimal(guess);
-  
+// sets up a while loop that if num and guess are not equal to each other will display an alert message "Try agian" and reset the value of guess
   while ( !isWinner(num, guess) ) {
     alert("Try again.");
     guess = getUserGuess(lowest, highest);
     guess = convertToDecimal(guess);
   }
-//
+// else (in this case) if guess and num are equal to each other it will display an alert message "You Win!"
   alert("You win!");
   
 };
