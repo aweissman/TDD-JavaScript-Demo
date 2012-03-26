@@ -22,13 +22,13 @@ var getUserGuess = function (min, max) {
   return prompt("Guess a number from " + min + " to " + max);
 };
 
-// takes the variable getUserGuess and converts it from a string to a decimal integer using the parseInt command. 
+// takes the variable getUserGuess and converts it from a string to a decimal integer. 
 //
 var convertToDecimal = function (str) {
   return parseInt(str, 10);
 };
 
-// creates a function called isWinner that checks to see if num and guess are equal to each other. if they are then it returns true else it returns false.
+// creates a function called isWinner that checks to see if num and guess are equal to each other. If they are then it returns true else it returns false.
 //
 var isWinner = function (num, guess) {
   if (num === guess) {

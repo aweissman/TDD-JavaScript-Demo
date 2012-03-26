@@ -14,7 +14,7 @@ var getUserGuess = function () {
   return prompt("Guess a number from 1 to 6");
 };
 
-// takes the variable getUserGuess and converts it from a string to a decimal integer using the parseInt command. 
+// takes the variable getUserGuess and converts it from a string to a decimal integer. 
 //
 var convertToDecimal = function (str) {
   return parseInt(str, 10);

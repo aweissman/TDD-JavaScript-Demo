@@ -28,7 +28,7 @@ var getUserHighest = function () {
   return prompt("What is the highest number I should use?");
 };
 
-// takes the variable getUserGuess and converts it from a string to a decimal integer using the parseInt command. 
+// takes the variable getUserGuess and converts it from a string to a decimal integer. 
 //
 var convertToDecimal = function (str) {
   return parseInt(str, 10);
