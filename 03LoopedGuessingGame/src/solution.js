@@ -1,4 +1,5 @@
 // setting up a variable named authorsName with a value of "William Doane"
+// the purpose of this is to allow the author do see changes have have been made to the code.
 //
 var authorsName = "William Doane";
 
